@@ -1,0 +1,20 @@
+# METADATA
+title: "Extractives"
+email: extractives@code4sa.org
+description: Nigerian extractives.
+baseurl: "/"
+url: "http://www.code4sa.org/extractives/"
+
+# OPEN GRAPH
+## OG Description must be 125 characters or less
+og_description: Nigerian extractives.
+twitter_username: "@nigerianextractives"
+
+# BUILD SETTINGS
+permalink: /:categories/:year-:month-:day/:title.htm
+
+# EXCLUDE
+exclude: [README.md]
+
+#RESOURCES USED
+## Header image - something
