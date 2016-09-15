@@ -95,5 +95,11 @@ p.dropcap:first-letter {
 }
 
 .col-donor {
-	padding: 10px 35px 10px 35px;
+	padding: 10px 25px 10px 25px;
+}
+
+@media(max-width:475px) {
+	.col-donor {
+		padding: 5px;
+	}
 }
