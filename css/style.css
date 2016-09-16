@@ -6,7 +6,7 @@ body {
 }
 
 #header-image {
-    background: #000 url(../img/header.jpg) center center;
+    background: #000 url(../img/header.jpg) center right;
     background-size: cover;
     width: 100%;
     height: 60vh;
@@ -16,6 +16,7 @@ body {
 .title {
 	font-family: 'Noticia Text', serif;
 	text-align: center;
+	margin-top: 10px;
 }
 
 title-row {
@@ -65,6 +66,7 @@ footer {
 
 .description-text {
 	margin-top: 15px;
+	font-size: 1.1em
 }
 
 p.dropcap:first-letter {
@@ -86,6 +88,50 @@ p.dropcap:first-letter {
     border-radius: 0px;
 }
 
+.btn-facebook {
+	background-color: #fff;
+	color: #3b5998;
+	border: 0 solid #3b5998;
+	border-radius: 0;
+	opacity: 0.9;
+}
+
+.btn-facebook:hover, .btn-facebook:focus {
+	background-color: #3b5998;
+	color: #fff;
+	border-radius: 0;
+	opacity: 1;
+}
+
+.btn-twitter {
+	background-color: #fff;
+	color: #1da1f2;
+	border: 0 solid #1da1f2;
+	border-radius: 0;
+	opacity: 0.9;
+}
+
+.btn-twitter:hover, .btn-twitter:focus {
+	background-color: #1da1f2;
+	color: #fff;
+	border-radius: 0;
+	opacity: 1;
+}
+
+.social-buttons-large {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.social-buttons-small {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.btn-share-small, .btn-share-small:focus, .btn-share-small:focus {
+	border-width: 1px;
+}
+
 .btn:focus {
 	color: #fff;
 }
@@ -102,4 +148,21 @@ p.dropcap:first-letter {
 	.col-donor {
 		padding: 5px;
 	}
+}
+
+code {
+	background-color: #f5f5f5;
+}
+
+ol {
+	margin-bottom: 0;
+	padding-left: 20px;
+}
+
+.no-chapter {
+	padding-left: 20px;
+}
+
+.sub-chapter {
+	padding-left: 30px;
 }
