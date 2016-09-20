@@ -180,7 +180,7 @@ ol {
 	text-align: justify;
 }
 
-.output-content p {
+.output-content p, .output-content ul, .output-content ol, blockquote {
 	font-size: 15px;
 }
 
@@ -202,9 +202,23 @@ h4 a {
 	border-color: #286090;
 }
 
+code {
+	padding: 1px 7px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
+    color: #ffffff;
+    background-color: #286090;
+    border-radius: 0;
+}
+
 @media(min-width:992px) {
 	.btn-home {
 	    margin-bottom: -20px;
 	}
 }
 
+h5 {
+	font-size: 15px;
+	text-decoration: underline;
+	font-weight: bold;
+}
