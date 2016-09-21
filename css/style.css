@@ -184,6 +184,10 @@ ol {
 	font-size: 15px;
 }
 
+blockquote {
+	margin-bottom: 10px;
+}
+
 .bibliography li {
 	padding-bottom: 5px
 }
@@ -221,4 +225,25 @@ h5 {
 	font-size: 15px;
 	text-decoration: underline;
 	font-weight: bold;
+}
+
+.panel {
+    margin-bottom: 0;
+    background-color: #f5f5f5;
+    border-width: 0;
+    border-bottom: 10px solid #fff;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.panel-many {
+	border-bottom-width: 1px;
+}
+
+.footnote-plus {
+	padding-right: 4px;
+	padding-left: 4px;
+	color: #fff;
+	background-color: #286090;
 }
