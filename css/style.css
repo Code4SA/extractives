@@ -136,17 +136,7 @@ p.dropcap:first-letter {
 }
 
 .donor {
-	width: 100%;
-}
-
-.col-donor {
-	padding: 10px 25px 10px 25px;
-}
-
-@media(max-width:475px) {
-	.col-donor {
-		padding: 5px;
-	}
+	width: 150px;
 }
 
 ol {
@@ -246,4 +236,10 @@ h5 {
 	padding-left: 4px;
 	color: #fff;
 	background-color: #286090;
+}
+
+.made-by {
+	font-size: 17px;
+	text-align: center;
+	margin: 30px 0;
 }
